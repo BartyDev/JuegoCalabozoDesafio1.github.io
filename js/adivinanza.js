@@ -107,7 +107,7 @@ while (elegir != 34005) {
             }
             break;
         default:
-            alert("🤨🤨🤨 elige una opcion correcta");
+            alert("☠️☠️☠️ elige una opcion correcta");
 
     }
     elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :`));
