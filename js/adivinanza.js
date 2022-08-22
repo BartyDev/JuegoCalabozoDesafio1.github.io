@@ -1,4 +1,5 @@
 //Pude haber hecho mas reducido el código, pero aun estoy aprendiendo :)
+
 alert("💀 Bienvenido al Calabozo D' bart 💀")
 alert("Te veras atrapado en un bucle infinito y solo podrás salir si encuentras el código secreto oculto entre los siguientes acertijos.\nEL CÓDIGO SECRETO son numeros aleatorios que una vez encuentres, tendras que darle un orden para que funcione.\n \n\n                                    BUENA SUERTE! 💀");
 
@@ -11,7 +12,7 @@ while (nombre === '') {
     }
 }
 
-let elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 :\n- Ingresa el código secreto de 5 dígitos :`));
+let elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :`));
 
 while (elegir != 34005) {
     switch (elegir) {
@@ -109,7 +110,7 @@ while (elegir != 34005) {
             alert("🤨🤨🤨 elige una opcion correcta");
 
     }
-    elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 :\n- Ingresa el código secreto de 5 dígitos :`));
+    elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :`));
 }
 
 alert(`${nombre} HAS LOGRADO ESCAPAR\n\n                                          VICTORIA 🏆`);
