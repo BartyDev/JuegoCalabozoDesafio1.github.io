@@ -1,7 +1,7 @@
 //Pude haber hecho mas reducido el código, pero aun estoy aprendiendo :)
 
 alert("💀 Bienvenido al Calabozo D' bart 💀")
-alert("Te veras atrapado en un bucle infinito y solo podrás salir si encuentras el código secreto oculto entre los siguientes acertijos.\nEL CÓDIGO SECRETO son numeros aleatorios que una vez encuentres, tendras que darle un orden para que funcione.\n \n\n                                    BUENA SUERTE! 💀");
+alert("Te veras atrapado en un bucle infinito y solo podrás salir si encuentras el código secreto oculto entre los siguientes acertijos.\nEL CÓDIGO SECRETO son numeros aleatorios que una vez encuentres, tendras que darle un orden para que funcione.\n \nBUENA SUERTE! 💀");
 
 nombre = prompt("ingresa tu nombre para comenzar :").toUpperCase();
 while (nombre === '') {
@@ -113,5 +113,5 @@ while (elegir != 34005) {
     elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :`));
 }
 
-alert(`${nombre} HAS LOGRADO ESCAPAR\n\n                                          VICTORIA 🏆`);
+alert(`${nombre} HAS LOGRADO ESCAPAR\n\nVICTORIA 🏆`);
 console.log("gracias por participar 😄");
