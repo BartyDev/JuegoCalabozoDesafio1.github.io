@@ -1,7 +1,7 @@
 //Pude haber hecho mas reducido el código, pero aun estoy aprendiendo :)
 
 alert("💀 Bienvenido al Calabozo D' bart 💀")
-alert("Te veras atrapado en un bucle infinito y solo podrás salir si encuentras el código secreto oculto entre los siguientes acertijos.\nEL CÓDIGO SECRETO son numeros aleatorios que una vez encuentres, tendras que darle un orden para que funcione.\n \nBUENA SUERTE! 💀");
+alert("Te veras atrapado en un bucle infinito y solo podrás salir si encuentras el código secreto oculto entre los siguientes acertijos.\nReúne los dígitos y resuelve el acertijo final, si lo haces habras acabado el desafío y podras salir\n \nBUENA SUERTE! 💀");
 
 nombre = prompt("ingresa tu nombre para comenzar :").toUpperCase();
 while (nombre === '') {
@@ -12,10 +12,13 @@ while (nombre === '') {
     }
 }
 
-let elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :`));
+let elegir = parseInt(prompt(`- ${nombre} escoge un número del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :\n-❗Acertijo final - 0`));
 
 while (elegir != 34005) {
     switch (elegir) {
+        case 0:
+            alert("Si reuniste los codigos resuelve el siguiente acertijo :\n'TRISTES TIGRES PERDIDOS EN LOS PUNTOS CARDINALES, VEN CON GRANDES OJOS MIS SENTIDOS COMPLETOS'");
+            break;
         case 1:
             alert("¿Qué es eso que anda todo el día y nunca sale de su sitio?");
             respuesta = prompt("respuesta :").toUpperCase();
@@ -110,8 +113,8 @@ while (elegir != 34005) {
             alert("☠️☠️☠️ elige una opcion correcta");
 
     }
-    elegir = parseInt(prompt(`- ${nombre} escoge un numero del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :`));
+    elegir = parseInt(prompt(`- ${nombre} escoge un número del 1 al 10 🔥 :\n- Ingresa el código secreto de 5 dígitos 📟 :\n-❗Acertijo final - 0`));
 }
 
-alert(`${nombre} HAS LOGRADO ESCAPAR\n\nVICTORIA 🏆`);
+alert(`${nombre} HAS LOGRADO ESCAPAR❕\n\nVICTORIA 🏆`);
 console.log("gracias por participar 😄");
